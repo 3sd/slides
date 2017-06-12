@@ -48,8 +48,8 @@ Note: designed for wide use, but meeting client's use case
 
 ## What are contracts?
 
-- No fixed term
-- Recurring payments
+<!-- - No fixed term
+- Recurring payments -->
 
 =
 
@@ -109,7 +109,25 @@ Allows for independent innovation
 
 CiviMember can stay manageable
 
-Some improvements could go back to core
+Try and avoid a fork
+
+-
+
+## Entities
+- Memberships
+- Activities
+- With custom data
+
+(nothing else)
+
+-
+
+## Implementation
+
+- Contract modifications triggered by creating activities
+- Listen for contract changes and
+  - prevent those that are 'illegal'
+  - record activities after the event when memberships are changed directly
 
 -
 
@@ -134,3 +152,5 @@ How is it different from CiviMember?
 =
 
 # Questions?
+
+Does this fit your idea of contracts?
