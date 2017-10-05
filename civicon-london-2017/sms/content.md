@@ -163,4 +163,4 @@ Note: Show SMS traffic report / Pick a number at random and send an SMS
 
 <i class="fa fa-envelope" aria-hidden="true"></i> michael@3sd.io
 
-<i class="fa fa-television" aria-hidden="true"></i> <a class="base01" href="http://slides.3sd.io/civicon-2017/sms">http://slides.3sd.io/civicon-2017/sms</a></p>
+<i class="fa fa-television" aria-hidden="true"></i> <a class="base01" href="http://slides.3sd.io">http://slides.3sd.io</a></p>
