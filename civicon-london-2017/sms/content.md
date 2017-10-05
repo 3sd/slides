@@ -114,6 +114,9 @@ Note: Show SMS traffic report / Pick a number at random and send an SMS
 
 ## Demo time
 
+<p>
+  <img src="cute-dog-and-cat.png" style="width:500px;border: none;"/>
+</p>
 **text 'Pets' to 020 3322 3721**
 
 -
