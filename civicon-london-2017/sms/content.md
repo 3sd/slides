@@ -1,7 +1,7 @@
 <div class="title">
 <h1>SMS with CiviCRM</h1>
 <p class="subtitle">Michael McAndrew, Third Sector Design<br/>
-<a class="base01" href="http://slides.3sd.io/civicon-2017/sms">http://slides.3sd.io/civicon-2017/sms</a></p>
+<a class="base01" href="http://slides.3sd.io">http://slides.3sd.io</a></p>
 </div>
 
 Note: Delete SMS traffic, delete all SMS activities.
