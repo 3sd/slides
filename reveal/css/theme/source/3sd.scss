@@ -1,6 +1,9 @@
 /**
- * Solarized Light theme for reveal.js.
- * Author: Achim Staebler
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkblue.
+ *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
 
@@ -10,130 +13,54 @@
 // ---------------------------------------------
 
 
+
 // Include theme-specific fonts
-// @import url(../../lib/font/league-gothic/league-gothic.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins,700|Barlow);
 
 
-
-/**
- * Solarized colors by Ethan Schoonover
- */
-html * {
-	color-profile: sRGB;
-	rendering-intent: auto;
-}
-
-// Solarized colors
-$base03:    #002b36;
-$base02:    #073642;
-$base01:    #586e75;
-$base00:    #657b83;
-$base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
-$base3:     #fdf6e3;
-$yellow:    #b58900;
-$orange:    #cb4b16;
-$red:       #dc322f;
-$magenta:   #d33682;
-$violet:    #6c71c4;
-$blue:      #268bd2;
-$cyan:      #2aa198;
-$green:     #859900;
-
-// Colours
-
-$headingColor: $red;
-$mainColor: $base01;
-$linkColor: $blue;
-$backgroundColor: $base3;
-$heading1Size: 2.5em;
-$heading2Size: 2em;
-
-// Background generator
-@mixin bodyBackground() {
-	@include radial-gradient( darken($base3, 7.5%), lighten($base3, 1.5%) );
-}
-
-.reveal .title h1{
-	margin: 80px 0;
-	font-size: 3em;
-}
-
-.reveal p.subtitle{
-	color: $red;
-	font-family: Poppins;
-	font-weight: bold;
-}
-
-@import url("https://fonts.googleapis.com/css?family=Poppins:600");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
-$headingFont: 'Poppins';
-// $headingTextShadow: 0px 2px 10px transparentize($base03, 0.66);
-$headingTextShadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-$heading1TextShadow: $headingTextShadow;
-$headingFontWeight: 600;
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Barlow', sans-serif;
+$mainColor: #fff;
+$headingFont: 'Poppins', sans-serif;
+$headingFontWeight: 700;
+$headingColor: #fff;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #000;
+$linkColor: #d41000;
+$linkColorHover: lighten($linkColor, 10%);
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$mainFontSize: 40px;
 $blockMargin: 40px;
-$headingTextTransform: 'none';
-$linkColorHover: $blue;
-$mainFont: 'Roboto Slab';
-$selectionBackgroundColor: $magenta;
+$headingMargin: 0 0 $blockMargin 0;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextShadow: none;
+$heading1TextShadow: $headingTextShadow;
 
-.reveal a {
-	text-decoration: underline;
-}
-.reveal a.base01 {
-	color: $base01;
-}
+$heading1Size: 2em;
+$heading2Size: 1.66em;
+$heading3Size: 1.33em;
+$heading4Size: 1.00em;
 
-.reveal .sms{
-	margin-top: $blockMargin * 2;
-}
-
-.reveal .sms .civi, .reveal .sms .contact{
-  background-color: transparentize(white, 0.3);;
-	color: black;
-  font-family: Roboto;
-  padding: 10px;
-  margin-bottom: 10px;
-  clear:both;
-  font-size: 80%;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.12);
-	text-shadow: none;
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+	background-image: url('http://slides/reveal/css/theme/cubes-white-30.png');
+	background-size: 100%;
+	background-position: center;
 }
 
-.reveal .sms .civi{
-  border-radius: 20px 20px 0 20px;
-  background-color: transparentize($blue, 0.1);
-	color: white;
-  margin-left:100px;
-  margin-right:100px;
-  float: right;
-  text-align: right;
+body{
+	margin-top: 40px solid red;
 }
 
-.reveal .sms .contact{
-  border-radius: 20px 20px 20px 0;
-  margin-right:100px;
-  margin-left:100px;
-  float: left;
-  text-align: left;
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
 }
 
-.reveal {
-	text-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.12);
-}
-
-
-.reveal table.layout td{
-	border-bottom: none;
-	vertical-align: middle;
-}
-
-.reveal table.layout{
-	border-spacing: 0 100px;
-}
 
 // Theme template ------------------------------
 @import "../template/theme";
