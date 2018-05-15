@@ -15,7 +15,7 @@
 
 
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Poppins,700|Barlow);
+@import url(https://fonts.googleapis.com/css?family=Poppins,700|Barlow,500);
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -55,6 +55,7 @@ body{
 	margin-top: 40px solid red;
 }
 
+
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
 		color: #fff;
@@ -65,3 +66,8 @@ section.has-dark-background {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+//
+
+.reveal{
+	font-weight: 500;
+}
