@@ -72,7 +72,7 @@ In the good old days
 
 =
 
-In conclusion
+A suggestion
 
 ## Give your next extension a simple name
 
