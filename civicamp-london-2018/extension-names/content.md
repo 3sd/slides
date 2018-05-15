@@ -50,13 +50,13 @@ Why change?
 
 Why change?
 
-## Everyone else is doing it
+## Everyone's doing it
 
 =
 
 In the good old days
 
-## Credit authors
+## Credit for authors
 
 =
 
@@ -72,7 +72,7 @@ In the good old days
 
 =
 
-A request
+In conclusion
 
 ## Give your next extension a simple name
 
