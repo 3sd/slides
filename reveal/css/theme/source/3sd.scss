@@ -15,7 +15,7 @@
 
 
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Poppins,700|Barlow,500);
+@import url(https://fonts.googleapis.com/css?family=Poppins:700|Barlow:500);
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -46,7 +46,7 @@ $heading4Size: 1.00em;
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
 @mixin bodyBackground() {
-	background-image: url('http://slides/reveal/css/theme/cubes-white-30.png');
+	background-image: url('/reveal/css/theme/cubes-white-30.png');
 	background-size: 100%;
 	background-position: center;
 }
