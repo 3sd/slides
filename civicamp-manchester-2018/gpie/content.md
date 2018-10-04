@@ -6,15 +6,15 @@
 
 -
 
-## This session
+## What we'll cover
 
-The story
+The story behind the project
 
-How it works
+The features we implemented
 
-Lessons learned
+The lessons we learned
 
-Q + A
+Questions and answers
 
 Note:
 
@@ -28,11 +28,9 @@ Aim to:
 
 =
 
-# The story
+# The story so far
 
-Over to Lawrence...
-
-https://greenparty.ie
+### https://greenparty.ie
 
 Note:
 Eileen was involved early on.
@@ -47,27 +45,26 @@ It was fun to do the upgrade.
 
 -
 
-## Membership types
+## Membership types[*](https://anon.my.greenparty.ie/civicrm/admin/member/membershipType?reset=1)
 
-[Green Party membership types](https://anon.my.greenparty.ie/civicrm/admin/member/membershipType?reset=1)
+Map your membership structure into CiviCRM<br >
+Each type may have different:
 
-Map your membership structure into CiviCRM
+- fees
+- duration
+- auto-renew options
+- related members
+- parent organisation.
 
-- Fees
-- Duration
-- Auto-renew options
-- Related members
-
+Note: Some basic concepts
 
 -
 
-## Membership statuses
+## Membership status[*](https://anon.my.greenparty.ie/civicrm/admin/member/membershipStatus?reset=1)
 
-[Green Party membership statuses](https://anon.my.greenparty.ie/civicrm/admin/member/membershipStatus?reset=1)
+Statuses describe the membership life-cycle<br /><br />
 
-Describe the membership life-cycle
-
-pending --> new --> current --> grace --> expired
+##### *pending > new > current > grace > expired*
 
 -
 
@@ -83,6 +80,8 @@ pending --> new --> current --> grace --> expired
 Note:
 
 Intervention only required for exceptional cases. No work required for optimal route.
+
+Dwell on user account creation if there is time
 
 -
 
@@ -100,8 +99,7 @@ Intervention only required for exceptional cases. No work required for optimal r
 ## Website Integration
 
 - Website is WordPress but CiviCRM is on Drupal
-- Public facing Civi pages are 'WordPress-Drupal lovechild'
-- e.g. the [volunteer form](http://my.greenparty.ie/volunteer)
+- Public facing Civi pages (e.g. [the volunteer form](http://my.greenparty.ie/volunteer)) inherit the WordPress theme
 
 Note: show the Members link in the menu as well as the volunteer form.
 
@@ -123,7 +121,7 @@ Note: show the Members link in the menu as well as the volunteer form.
   - [View membership reports](***)
   - [Email local members](***)
 - Based on ACLs
-- Some custom code was necessary
+- and a little custom code
 
 -
 
@@ -133,7 +131,7 @@ Use out-of-the box CiviCRM and popular extensions when possible
 
 Develop custom extensions when necessary
 
-Long term approach with continued investment
+A long view with continued investment
 
 Note: explain the + and - of each approach
 
@@ -142,7 +140,7 @@ Note: explain the + and - of each approach
 # Next steps
 
 - Evidence based decision making
-- More extensions
+- Take advantage of more extensions
 
 =
 
@@ -152,7 +150,7 @@ Note:
 
 * Contribution pages are hard to theme
 * Join up your website and CRM projects
-*
+* GDPR
 
 =
 
