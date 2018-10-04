@@ -110,16 +110,18 @@ Note: show the Members link in the menu as well as the volunteer form.
 [Dashboard](https://anon.my.greenparty.ie/dashboard)
 
 - Overview of membership
-- Communication preferences via GDPR extension
+- Communication preferences
+- Powered by GDPR extension
+- And a little custom code
 
 -
 
 ## Local party access
 
 - Party organisations and officers mapped in CiviCRM
-- Local officials have restricted access
-  - [View membership reports](***)
-  - [Email local members](***)
+- Local officials (e.g. [Mayo](https://anon.my.greenparty.ie/civicrm/contact/view?reset=1&cid=8426)) have restricted access to records
+  - View membership reports
+  - Email local members
 - Based on ACLs
 - and a little custom code
 
