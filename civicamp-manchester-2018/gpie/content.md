@@ -54,7 +54,7 @@ Each type may have different:
 - duration
 - auto-renew options
 - related members
-- parent organisation.
+- parent organisation
 
 Note: Some basic concepts
 
@@ -96,13 +96,16 @@ Dwell on user account creation if there is time
 
 -
 
-## Website Integration
+## Website integration
 
-- Website is WordPress but CiviCRM is on Drupal
-- Public facing Civi pages (e.g. [the volunteer form](http://my.greenparty.ie/volunteer)) inherit the WordPress theme
+- Website on WordPress on [www.greenparty.ie](http://www.greenparty.ie)
+- CiviCRM on Drupal on [my.greenparty.ie](http://my.greenparty.ie)
+- Public pages look exactly the same
+- Various integration techniques (CiviCRM pages, webforms, API)
 
 Note: show the Members link in the menu as well as the volunteer form.
 
+Not ideal, but you can't tell. Good in certain situations.
 -
 
 ## Member dashboard
@@ -118,18 +121,18 @@ Note: show the Members link in the menu as well as the volunteer form.
 
 ## Local party access
 
-- Party organisations and officers mapped in CiviCRM
-- Local officials (e.g. [Mayo](https://anon.my.greenparty.ie/civicrm/contact/view?reset=1&cid=8426)) have restricted access to records
-  - View membership reports
-  - Email local members
+- Party structure and officers mapped in CiviCRM[*](https://anon.my.greenparty.ie/civicrm/contact/view?reset=1&cid=8426)
+- Local officials can:
+  - view local membership reports
+  - email their members
 - Based on ACLs
-- and a little custom code
+- and some custom code
 
 -
 
 ## Approach
 
-Use out-of-the box CiviCRM and popular extensions when possible
+Use out-of-the box CiviCRM/extensions when possible
 
 Develop custom extensions when necessary
 
@@ -141,8 +144,9 @@ Note: explain the + and - of each approach
 
 # Next steps
 
-- Evidence based decision making
-- Take advantage of more extensions
+More analysis
+
+More extensions
 
 =
 
