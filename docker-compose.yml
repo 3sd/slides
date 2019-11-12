@@ -1,0 +1,12 @@
+version: "3.6"
+services:
+  web:
+    image: httpd
+    volumes:
+      - .:/usr/local/apache2/htdocs
+    networks:
+      - traefik
+    restart: always
+networks:
+  traefik:
+    name: traefik
