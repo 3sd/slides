@@ -74,9 +74,7 @@ CiviEvent, CiviMember, CiviCase, Views, Webforms
 
 # The approach
 
-Out of the box > Power Extensions > Custom code
-
-Use power extensions to
+Out of the box > 'Powertool' Extensions > Custom code
 
 -
 
