@@ -12,6 +12,8 @@ Always good to get user perspective / experience / side of the story
 
 Users: I encourage you to share your story
 
+Specifics are Drupal, generality is for WordPress too
+
 -
 
 # Session aims
@@ -54,19 +56,27 @@ Michael Voges is really passionate about it
 
 # ARCO and CiviCRM
 
-Membership [sign up](https://www.arcouk.org/join) and renewal
+Membership [sign up](https://www.arcouk.org/join) and renewal, and member resources
 
 [Event registration](https://www.arcouk.org/events) and management
 
 [Maps](https://www.arcouk.org/find-a-retirement-community), directories, [member promotion](https://www.arcouk.org/)
 
-Case work: assessment and complaints
+Case work: assessment, accreditation and complaints
 
 Note:
 
 ARCO is a great match for CiviCRM. It exercises a lot of what CiviCRM does really well.
 
 CiviEvent, CiviMember, CiviCase, Views, Webforms
+
+-
+
+# The approach
+
+Out of the box > Power Extensions > Custom code
+
+Use power extensions to
 
 -
 
@@ -82,9 +92,11 @@ Filter criteria
 
 Sort criteria
 
-Note: edit the view
+Note:
 
-Note: look at some contacts in the back end
+Edit the view
+
+Look at some contacts in the back end
 
 -
 
@@ -174,13 +186,15 @@ _A little can go a long way_
 
 Joining everything up with a [dashboard](https://www.arcouk.org/user)
 
-Analyses state and suggests the next step
-
 Brings together multiple webforms
+
+Analyses state and suggests the next step
 
 Loosely coupled
 
-Notes: pre-filling with contacts via query parameters
+Note:
+
+Pre-filling with contacts via query parameters
 
 -
 
