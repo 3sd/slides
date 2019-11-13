@@ -128,7 +128,7 @@ A view with some custom code
 
 Note: ask people if they have any questions about views
 
-Can I do X with views?
+What else would you like to do with views?
 
 -
 
@@ -175,6 +175,10 @@ Related entities (organisational membership and activity)
 # Multi-page forms
 
 [Partner registration](https://www.arcouk.org/user/partner-registration)
+
+Note:
+
+What else would you like to do with a webform?
 
 -
 
