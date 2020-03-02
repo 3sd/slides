@@ -263,6 +263,8 @@ Note: If you like the look of this, feel free to tweet NDI and say thank you
 
 # Talk to people
 
+Note:
+
 If you have been before, make the effort to talk to people that are new
 
 If you are new and want to be sign posted, Rich, Rose, Heather, Craig are great people to talk to to get sign posted.
