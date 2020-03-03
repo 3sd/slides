@@ -170,7 +170,7 @@ Keep everyone happy with layers
 
 - **user layer** - easy to create intents
 - **power user layer** - use Dialogflow tools
-- **developers layer** - create intent types
+- **developer layer** - create intent types
 
 Note:
 
@@ -203,7 +203,7 @@ It is only an MVP
 
 We wanted to take advantage of technologies that didn't exist last time
 
-NDI are keen to meed wider needs
+NDI are keen to need wider needs
 
 -
 
@@ -232,18 +232,16 @@ NDI are keen to meed wider needs
 # Custom development tips
 
 - Sometimes it's better not to
-- Contribute to core instead?
 - Think about maintenance
+- Contribute to core instead?
+- It's OK sometimes
 - Talk to others
-- (it's OK sometimes)
 
 Note:
 
+- Customisations come in many shapes and sizes
+- Compare ongoing cost of maintainence vs one of cost of core contribution
 - Compare people with lots of customisations to people who don't have any
-- Compare customisation + cost of maintenance with
-- Contribute to core (or another well maintained extension)
-- More expensive short term. Pay off long term
--
 
 =
 
@@ -264,6 +262,10 @@ Note: If you like the look of this, feel free to tweet NDI and say thank you
 # Talk to people
 
 Note:
+
+That's the reason we are here
+
+Watch
 
 If you have been before, make the effort to talk to people that are new
 
